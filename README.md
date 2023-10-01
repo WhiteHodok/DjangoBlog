@@ -1,5 +1,9 @@
 # DjangoBlog
 
+# Демонстрация работы 
+
+
+
 ## Ветка файлов на данный момент 
 
 ![image](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/8fc20c20-ecf7-4cba-ba59-ce3ee6220a77)
@@ -9,6 +13,7 @@
 
 
 ## Обзор 
+
 
 - Скриншот Home : 
 
@@ -39,4 +44,33 @@
 
 - Проведены все migrations для Django 
 
+- Обработка шаблонов производится через стандартные для каждого пользователя в Django *views.py*
+
+- В свою очередь *urls.py* содержит ссылки на эти шаблоны 
+
+
+# Installation and run 
+
+- git clone this repo 
+
+- .env файл в корневую директорию для хеш-ключа такого вида (его можно взять у меня)
+
+
+``` SECRET_KEY="" ```
+
+
+- В консоли прописать последовательно : 
+
+
+1. ``` pip install requirements.txt```
+
+2. ```python manage.py runserver```
+
+
+# Осталось переделать 
+
+- Перенести все данные из sqlite3 в supabase(PostgreSQL) 
+
+- Перенести все img в supabase Storage 
+ 
   
