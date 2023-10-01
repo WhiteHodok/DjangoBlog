@@ -4,9 +4,15 @@
 
 
 
-## Ветка файлов на данный момент 
+## tree 
 
 ![image](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/8fc20c20-ecf7-4cba-ba59-ce3ee6220a77)
+
+## Dependencies
+
+- Важно ! Откатить свою версию Django, либо же удалить до той, которая в requirements.txt (crispy forms конфликтует из-за этого) и установить зависимости через тот же requirements
+
+- Django==3.12 , crispy-forms-django , bootstrap4
 
 
 # Как устроен проект и как его редактировать 
