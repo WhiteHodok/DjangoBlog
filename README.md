@@ -21,6 +21,11 @@
 ## Edit 
 
 - Проект имеет стандартную маршрутизацию в файлах, как и в любых Django проектах
-- 
-- Основные шаблоны находятся в blog/templates/blog
+  
+- Основные шаблоны HTML находятся в *blog/templates/blog*
+
+- Основная таблица (и единственная) таблица стилей (CSS) находится по следующему адресу *blog/static/blog*
+
+![image](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/200139dd-2c96-432d-a87d-65b6c9581dd5)
+
   
