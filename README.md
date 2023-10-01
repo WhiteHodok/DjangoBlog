@@ -10,6 +10,11 @@
 
 ## Обзор 
 
+- Скриншот Home : 
+
+
+![image](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/12d64466-540d-4845-a331-727a83c7d506)
+
 
 - Многопользовательский блог на Django + bootstrap4 , обладающий всем CRUD функционалом 
 
@@ -27,5 +32,11 @@
 - Основная таблица (и единственная) таблица стилей (CSS) находится по следующему адресу *blog/static/blog*
 
 ![image](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/200139dd-2c96-432d-a87d-65b6c9581dd5)
+
+- Используется стандартная Jinja в виде шаблонизатора 
+
+- БД является стандартная джанговская sqlite3 
+
+- Проведены все migrations для Django 
 
   
