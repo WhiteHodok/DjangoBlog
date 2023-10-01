@@ -2,7 +2,7 @@
 
 # Демонстрация работы 
 
-
+![pycharm64_u6EcTp4p31](https://github.com/WhiteHodok/DjangoBlog/assets/39564937/00e665ec-0232-432e-8a55-e1b6967439ea)
 
 ## tree 
 
