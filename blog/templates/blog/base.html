@@ -12,6 +12,7 @@
      <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -26,7 +27,10 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-blue fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}"><i class='bx bxs-rocket bx-tada-hover'></i> Два студента ОмГТУ</a>
+            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">
+                <box-icon type='logo' name='python'></box-icon>
+                Два студента ОмГТУ
+            </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,8 +65,8 @@
             {% endfor %}
           {% endif %}
           {% block content %}{% endblock %}
-        </div>
 
+       </div>
     </main>
     <!-- Футер закреплен внизу, независимо от количества постов на странице -->
     <footer class="text-center bg-dark">
