@@ -117,3 +117,12 @@ footer a:hover {
   color:#777;
   text-decoration: none;
 }
+
+.github-widget {
+    text-align: center;
+    margin: 20px;
+}
+
+.github-widget img {
+    max-width: 100%;
+}
